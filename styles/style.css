@@ -1,1 +1,278 @@
-/* место для вашего кода */
+
+body {
+  font-size: 20px;;
+}
+a {
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
+}
+header {
+  padding: 94px 24px 94px; 
+  box-sizing: border-box;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: stretch;
+  align-items: center;
+}
+.header__menu {
+  grid-column-end: span 2;
+  justify-self: end;
+}
+.header__menu-list {
+    list-style-type: circle;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+  }
+.header__menu-item_active {
+    list-style-type: none;
+    text-decoration: none;
+}
+.header__logo-image{
+  display: inline-block;
+  width: 132px;
+  justify-self: center;
+}
+.address {
+  font-style: normal;
+  line-height: 130%;
+  grid-column-end: span 2;
+}
+.header__address {
+  padding-left: 155px;
+  padding-right: 40px;
+  grid-column-end: span 2;
+}
+.cover {
+  background: #000 url("./images/cover.jpg") no-repeat center / cover; 
+  color: white;
+  position: relative;
+  padding: 162px 50px 50px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background: #000;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.cover__title {
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.24;
+  letter-spacing: 0.1em; 
+}
+
+.cover__title .line2 {
+  display: flex;
+  align-self: center;
+}
+.cover__title .line3 {
+  display: flex;
+  align-self: end;
+}
+
+.cover__title span {
+  letter-spacing: 0.3em; 
+}
+
+.cover__title span.space {
+  letter-spacing: 0.6em; 
+}
+
+.cover__title span.last {
+  letter-spacing: 0; 
+}
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 77px;
+  align-items: center;
+  padding-top: 120px;
+  position: relative;
+  z-index: 2;
+}
+.cover__description-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 20px;
+  color: white;
+}
+.bet-button {
+  background: none;
+  border: 1px solid white;
+  padding: 12px 32px;
+  text-transform: uppercase;
+  margin: 0;
+  color: white;
+  font-size: 22px; 
+  text-decoration: none;
+}
+.lots {
+  padding:180px 24px;
+}
+.lots__heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 26px 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  gap: 24px;
+}
+
+.lots__card-list-item {
+  flex: 1 30%;
+  min-height: 560px;
+  flex-grow: 1;
+}
+
+.lots__card-list-item a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+.card {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 50px 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card_type_film {
+  background: #000 url("./images/card-lot-01.jpg") no-repeat center / cover; 
+}
+.card_type_book {
+  background: #000 url("./images/card-lot-02.jpg") no-repeat center / cover; 
+}
+.card_type_picture {
+  background: #000 url("./images/card-lot-03.jpg") no-repeat center / cover; 
+}
+.card__title {
+  position: relative;
+  z-index: 2;
+  font-size: 22px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 120%;
+  text-decoration-thickness: 1px;
+}
+.card-content {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+}
+.lots__look-more-link {
+  padding-left: 40px;
+}
+.about {
+  display: grid;
+  flex-grow: 1;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 24px;
+  gap: 20px;
+  justify-items: center;
+}
+.about__column {
+  grid-column-end: span 2;
+}
+.about__logo {
+  width: 240px;
+  background-color: black;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+.about__title {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 104px 0;
+}
+.about__text {
+  line-height: 23px;
+  padding-bottom: 22px;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 170px 50px;
+}
+.footer__menu {
+
+}
+.footer__menu-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__menu-list-item {
+
+}
+.footer__menu-link {
+
+}
+.footer__menu-link_active {
+
+}
+.footer__social-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 48px;
+}
+.footer__social-list-item {
+
+}
+.footer__social-link {
+
+}
+.footer__social-icon {
+  width: 48px;
+  height: 48px
+}
+/*
+footer — подвал;
+address — такой класс уже есть в вашей вёрстке, все вложенные элементы аналогичны;
+footer__menu — блок навигации по списку ссылок. Мы рекомендуем окружать список тегом <nav> с этим классом;
+footer__menu-list — список пунктов меню;
+footer__menu-list-item — пункт списка меню;
+footer__menu-link — ссылка меню;
+footer__menu-link_active — активная ссылка меню (без подчеркивания);
+footer__social-list — список ссылок на социальные сети. Можно не добавлять тег <nav>, потому что это ссылки на внешние ресурсы;
+footer__social-list-item — пункт списка ссылок на социальные сети;
+footer__social-link — ссылка на социальные сети;
+footer__social-icon –
+
+
+*/

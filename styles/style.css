@@ -1,13 +1,12 @@
-
 body {
-  font-size: 20px;;
+  font-size: 20px;
 }
 a {
   text-underline-position: under;
   text-decoration-thickness: 1px;
 }
 header {
-  padding: 94px 24px 94px; 
+  padding: 94px 24px 94px;
   box-sizing: border-box;
   font-size: 18px;
   display: grid;
@@ -20,16 +19,16 @@ header {
   justify-self: end;
 }
 .header__menu-list {
-    list-style-type: circle;
-    display: flex;
-    flex-direction: row;
-    gap: 36px;
-  }
-.header__menu-item_active {
-    list-style-type: none;
-    text-decoration: none;
+  list-style-type: circle;
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
 }
-.header__logo-image{
+.header__menu-item_active {
+  list-style-type: none;
+  text-decoration: none;
+}
+.header__logo-image {
   display: inline-block;
   width: 132px;
   justify-self: center;
@@ -45,7 +44,7 @@ header {
   grid-column-end: span 2;
 }
 .cover {
-  background: #000 url("./images/cover.jpg") no-repeat center / cover; 
+  background: #000 url("/images/cover.jpg") no-repeat center / cover;
   color: white;
   position: relative;
   padding: 162px 50px 50px;
@@ -68,7 +67,7 @@ header {
   display: flex;
   flex-direction: column;
   line-height: 1.24;
-  letter-spacing: 0.1em; 
+  letter-spacing: 0.1em;
 }
 .cover__title .line2 {
   display: flex;
@@ -79,13 +78,13 @@ header {
   align-self: end;
 }
 .cover__title span {
-  letter-spacing: 0.3em; 
+  letter-spacing: 0.3em;
 }
 .cover__title span.space {
-  letter-spacing: 0.6em; 
+  letter-spacing: 0.6em;
 }
 .cover__title span.last {
-  letter-spacing: 0; 
+  letter-spacing: 0;
 }
 .cover__description {
   display: flex;
@@ -110,11 +109,11 @@ header {
   text-transform: uppercase;
   margin: 0;
   color: white;
-  font-size: 22px; 
+  font-size: 22px;
   text-decoration: none;
 }
 .lots {
-  padding:180px 24px;
+  padding: 180px 24px;
 }
 .lots__heading {
   text-transform: uppercase;
@@ -153,13 +152,13 @@ header {
   justify-content: space-between;
 }
 .card_type_film {
-  background: #000 url("./images/card-lot-01.jpg") no-repeat center / cover; 
+  background: #000 url("/images/card-lot-01.jpg") no-repeat center / cover;
 }
 .card_type_book {
-  background: #000 url("./images/card-lot-02.jpg") no-repeat center / cover; 
+  background: #000 url("/images/card-lot-02.jpg") no-repeat center / cover;
 }
 .card_type_picture {
-  background: #000 url("./images/card-lot-03.jpg") no-repeat center / cover; 
+  background: #000 url("/images/card-lot-03.jpg") no-repeat center / cover;
 }
 .card__title {
   position: relative;
@@ -233,5 +232,5 @@ footer {
 }
 .footer__social-icon {
   width: 48px;
-  height: 48px
+  height: 48px;
 }

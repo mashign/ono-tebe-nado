@@ -206,16 +206,16 @@ header {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 104px 0;
+  padding: 103px 0;
 }
 .about__text {
-  line-height: 23px;
-  padding-bottom: 22px;
+  line-height: 22.5px;
+  padding-bottom: 28px;
 }
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 170px 50px;
+  padding: 162px 50px;
 }
 .footer__menu-list {
   list-style-type: none;

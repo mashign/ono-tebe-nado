@@ -44,7 +44,7 @@ header {
   grid-column-end: span 2;
 }
 .cover {
-  background: #000 url("/images/cover.jpg") no-repeat center / cover;
+  background: #000 url("../images/cover.jpg") no-repeat center / cover;
   color: white;
   position: relative;
   padding: 162px 50px 50px;
@@ -152,13 +152,13 @@ header {
   justify-content: space-between;
 }
 .card_type_film {
-  background: #000 url("/images/card-lot-01.jpg") no-repeat center / cover;
+  background: #000 url("../images/card-lot-01.jpg") no-repeat center / cover;
 }
 .card_type_book {
-  background: #000 url("/images/card-lot-02.jpg") no-repeat center / cover;
+  background: #000 url("../images/card-lot-02.jpg") no-repeat center / cover;
 }
 .card_type_picture {
-  background: #000 url("/images/card-lot-03.jpg") no-repeat center / cover;
+  background: #000 url("../images/card-lot-03.jpg") no-repeat center / cover;
 }
 .card__title {
   position: relative;

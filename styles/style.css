@@ -254,7 +254,7 @@ address {
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 162px 50px 88px 50px;
+  padding: 158px 50px 88px 50px;
 }
 
 .footer__menu-list {
